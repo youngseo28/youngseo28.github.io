@@ -1,0 +1,163 @@
+section {
+  margin: auto;
+}
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 12px;
+}
+
+/* Add aslash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #838181;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #838181;
+ text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+ color: #ec8094;
+  text-decoration: underline;
+}
+
+
+
+section#right #summary h3 {
+  font-size: 16px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px #444444;
+}
+section#right #summary h3 span {
+  color: #fa5c5c;
+}
+section#right #summary1 {
+  float: left;
+  margin-top: 20px;
+  padding-left: 85px;
+}
+section#right #summary1 .buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+section#right #summary2 {
+  width: 540px;
+  float: right;
+  margin-top: 0;
+  padding-bottom: 50px;
+}
+section#right #summary2 h2
+{
+  font-weight: normal;
+  font-size: 18px;
+  color: #8c8c8c;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+section#right #summary h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: #ec8094;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+section#right #summary2 .item {
+  margin:0;
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+section#right #summary2 .item li {
+    margin: 10px 0 0 0;
+  list-style-type: none;
+}
+section#right #summary2 .item ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+section#right #summary2 .col1 {
+  width: 100px;
+  float: left;
+}
+section#right #summary2 .col2 {
+  width: 200px;
+  float: left;
+}
+section#right #summary2 .size {
+  margin: 20px 0 0 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #cccccc;
+}
+section#right #summary2 .size li {
+  margin: 5px 0;
+}
+section#right #summary2 .buttons {
+  margin: 15px 0 0 120px;
+}
+section#right #summary2 .buttons li {
+  display: inline;
+}
+
+/*상품설명*/
+section#right #explanation h3 {
+  font-size: 16px;
+  padding-bottom: 8px;
+  margin-top: 30px;
+  border-bottom: solid 1px #444444;
+  color: #fa5c5c;
+}
+section#right #explanation h2 {
+  margin: 0 0 0 0;
+}
+.contents {
+  padding-top: 30px;
+  border-top: solid 0.1px #747373;
+}
+.contents img {
+  padding-top: 50px;
+  border-top: solid 0.25px #c7c7c7;
+}
+section#right #explanation_box {
+  width: 720px;
+  height: 230px;
+  margin: 0 0 0 0px;
+  border: solid 1px #666666;
+  border-top: solid 4px #666666;
+  background-color: #ffffff;
+}
+section#right #explanation_box ul {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  list-style-type: none;
+}
+section#right #explanation_box li {
+  width: 670px;
+  padding: 8px;
+  border-bottom: solid 1px #cccccc;
+}
+section#right #explanation_box .col1 {
+  float: left;
+  width: 80px;
+  font-weight: bold;
+}
+section#right #explanation_box .col2 {
+  float: left;
+}
+section#right #explanation_box .col2 span {
+  color: #0000ff;
+  font-weight: bold;
+}
